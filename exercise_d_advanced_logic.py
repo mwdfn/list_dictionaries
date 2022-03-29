@@ -3,7 +3,9 @@
 numbers = [1, 6, 2, 2, 7, 1, 6, 13, 99, 7]
 
 # 1. Print out a list of the even integers:
-
+for even_number in numbers:
+    if even_number % 2 == 0:
+        print(even_number)
 
 # 2. Print the difference between the largest and smallest value:
 
