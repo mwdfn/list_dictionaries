@@ -8,10 +8,10 @@ for even_number in numbers:
         print(even_number)
 
 # 2. Print the difference between the largest and smallest value:
-
-
+numbers.sort()
+difference = numbers[-1] - numbers[0]
+print(difference)
 # 3. Print True if the list contains a 2 next to a 2 somewhere.
-
 
 # 4. Print the sum of the numbers, 
 #    BUT ignore any section of numbers starting with a 6 and extending to the next 7.
